@@ -1,0 +1,111 @@
+#results {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1%;
+}
+.pair {
+	display: flex;
+	margin-bottom: 1vh;
+	align-items: center;
+}
+.flag {
+	width: 50%;
+	height: 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border: 1px solid black;
+	cursor: pointer;
+}
+.resultdiv {
+	width: 45%;
+	height: 93.8%;
+	border: 1px solid black;
+	padding: 1%;
+	cursor: pointer;
+	text-align: center;
+}
+.name {
+	font-weight: bold;
+	margin: 0 0 0.4vw 0;
+}
+.officialname {
+	font-style: italic;
+	margin: 0 0 1vh 0;
+}
+.years {
+	margin: 0;
+}
+.variant {
+	margin-top: 1vh;
+}
+.nonly {
+	margin-right: 5vw;
+	width: 20vw;
+	height: 100%;
+	border: 1px solid black;
+	border-radius: 0% 24% 24% 0%;
+	box-shadow: 3px 0px 4px #dedfe0;
+	text-align: center;
+}
+.infobtn {
+	background-image: url("https://kri-droid.github.io/Flags/ImgToHTML/info.svg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 50%;
+	height: 50%;
+	border-radius: 10%;
+	margin-top: 5%;
+	display:inline-block;
+	cursor: pointer;
+}
+#infodiv {
+	border: 1px solid black;
+	border-radius: 5%;
+	position: fixed;
+	top: 15%;
+	display: none;
+	background-color: white;
+	z-index: 999;
+	padding: 0;
+	box-shadow: 10px 7px 7px rgba(0,0,0,0.1);
+	text-align: left;
+}
+#infodiv.active {
+	display: block;
+}
+#pagesInfo {
+	display: flex;
+}
+.infopage {
+	width: 25%;
+	aspect-ratio: 3 / 1;
+	margin-bottom: 1%;
+	text-align: center;
+	align-content: center;
+	font-family: sans-serif, Arial;
+}
+#infopage {
+	border-right: 2px solid black;
+	font-size: 150%;
+	font-weight: bold;
+}
+#construction {
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	font-size: 100%;
+}
+#colors {
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	font-size: 150%;
+}
+#fragments {
+	border-bottom: 2px solid black;
+	font-size: 100%;
+}
+#flaginfo {
+	margin: 2% 0 0 2%;
+	width: 45%;
+	border: 1px solid gainsboro;
+	box-shadow: 5px 3px 3px rgba(0,0,0,0.1);
+}

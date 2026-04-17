@@ -1,0 +1,26 @@
+#ukrytyDiv {
+	display: none;
+}
+#border {
+	border: 5px solid lightgray;
+	padding: 10px;
+	border-radius: 3%;
+}
+.numb {
+	width: 60px;
+}
+#borcontent {
+	display: flex;
+	justify-content: center;
+	margin-top: 2vh;
+}
+.heivpx {
+	height: 1vh;
+}
+#visblit, #search {
+	cursor: pointer;
+}
+#propwid, #prophei {
+	font-style: italic;
+	font-size: 10px;
+}
