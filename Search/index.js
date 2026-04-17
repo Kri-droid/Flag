@@ -259,7 +259,6 @@ function showInfo(url,elem,e) {
 	}
 	flaginfo.src = url;
 	flaginfo.style.aspectRatio = elem.propwid + " / " + elem.prophei;
-	document.getElementById("nameInfo").textContent = elem.country[0]
 	menu.classList.add("active");
 	flaginfo.onclick = function () {
 		window.open(url, "_blank");
