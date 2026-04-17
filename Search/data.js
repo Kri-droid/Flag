@@ -93,29 +93,6 @@ var data = [
     },
     {
         "country":[
-            "Afganistan"
-        ],
-        "engcountry":[
-            "Afghanistan"
-        ],
-        "ofcountry":[
-            "Islamska Republika Afganistanu",
-            "Islamic Republic of Afghanistan"
-        ],
-        "prophei":2,
-        "propwid":3,
-        "from":2013,
-        "to":2021.0,
-        "variant":[
-            "P",
-            "Normalny",
-            "Normal"
-        ],
-        "variantnr":1,
-        "info":null
-    },
-    {
-        "country":[
             "Albania"
         ],
         "engcountry":[
